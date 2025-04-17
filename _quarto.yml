@@ -7,7 +7,7 @@ website:
   navbar:
     left:
       - href: CV_testA.qmd
-        text: Home
+        text: CV
 
 format:
   html:
