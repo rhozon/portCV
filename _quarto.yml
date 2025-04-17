@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: "."
+
+website:
+  title: "RHOzon CV"
+  navbar:
+    left:
+      - href: CV_testA.qmd
+        text: Home
+
+format:
+  html:
+    theme: cyborg
+    css: styles.css
+    toc: true
+
+editor: visual
+

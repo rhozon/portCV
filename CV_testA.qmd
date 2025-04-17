@@ -1,0 +1,1348 @@
+---
+title: "<span style='font-size:18pt;'>Rodrigo Hermont Ozon -- Curriculum Vitae</span>"
+subtitle: "<span style='font-size:15pt;'>Economist (econometrics) and Data Scientist</span>"
+date: last-modified
+language:
+  en:
+    title-block-published: "Updated"
+  pt:
+    title-block-published: "Atualizado"
+author:
+  - name: "Rodrigo Hermont Ozon"
+    roles: [investigation, data curation]
+    id: RHO
+    affiliation:
+      - name: "Pontifical Catholic University of Parana (PUCPR)"
+        city: Curitiba
+        state: PR
+        url: "https://www.pucpr.br/escola-politecnica/mestrado-doutorado/engenharia-de-producao-e-sistemas/"
+citation:
+  type: webpage
+  title: "Rodrigo Hermont Ozon -- Curriculum Vitae"
+  author:
+    - family: "Hermont Ozon"
+      given: "Rodrigo"
+  issued: last-modified
+  url: "https://example.com/summarizing-output"
+copyright:
+  holder: "Rodrigo Hermont Ozon"
+  year: 2025
+funding:
+  statement: "The author(s) received no specific funding for this work."
+geometry:
+  - left=.75in
+  - textwidth=.5in
+  - marginparsep=.25in
+  - marginparwidth=.25in
+bibliography: references.bib
+comments:
+  hypothesis: true
+format:
+  html:
+    theme: cyborg
+    toc-depth: 5
+    toc: true
+    toc-location: left
+    fontsize: 12pt 
+    code-copy: true
+    citations-hover: true
+    footnotes-hover: true
+    crossrefs-hover: false
+    anchor-sections: true
+#    embed-resources: true
+    smooth-scroll: true
+    link-external-icon: false
+    other-links:
+      - text: "Tutorials and classes"
+        href: "https://rhozon.github.io/selecaodeprodutosnor/index.html"
+      - text: "Scientific Initiation Project (PUCPR)"
+        href: "https://pibicagrofinance.github.io/site/"
+      - text: "Data Science and Fin. Classes (FAE Business School)"
+        href: "https://profrhozon.github.io/site/"
+header-includes:
+  - '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">'
+  - |
+      <style>
+      /* Caixa (sidebar) fixa à direita */
+      #right-sidebar {
+        position: fixed;
+        top: 80px;
+        right: 20px;
+        width: 270px;
+        padding: 15px;
+        background-color: #333;
+        border-radius: 10px;
+        color: #ffffff;
+        z-index: 1000;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+      
+      /* Faz a imagem da sidebar ficar oval/round */
+      #right-sidebar img {
+        display: block;
+        margin: 0 auto 10px auto;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #aaa;
+      }
+      
+      /* Links dentro da sidebar */
+      #right-sidebar a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+      #right-sidebar a:hover {
+        text-decoration: underline;
+      }
+      
+      /* Exibição em linha dos ícones na sidebar */
+      #icon-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      
+      /* Efeito de transição para a foto e para os ícones */
+      #right-sidebar img,
+      #icon-list i {
+        transition: transform 0.3s ease-in-out;
+      }
+      #right-sidebar img:hover {
+        transform: scale(1.1);
+      }
+      #icon-list i:hover {
+        transform: scale(1.2);
+      }
+      
+      /* Estilização para logos em itens acadêmicos */
+      .academic-item .logo img {
+        width: 50px;
+        max-width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+      }
+      .academic-item .logo img:hover {
+        transform: scale(1.2);
+      }
+      
+      /* Timeline simples */
+      .timeline {
+        position: relative;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .timeline::before {
+        content: '';
+        position: absolute;
+        left: 30px;
+        width: 2px;
+        background: #999;
+        top: 0;
+        bottom: 0;
+      }
+      .timeline-item {
+        position: relative;
+        margin: 20px 0;
+        padding-left: 60px;
+      }
+      .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: 22px;
+        width: 16px;
+        height: 16px;
+        background: #31BAE9;
+        border-radius: 50%;
+        top: 0;
+      }
+      .timeline-year {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .timeline-content {
+        background: #222;
+        padding: 10px;
+        border-radius: 5px;
+        color: #fff;
+      }
+      
+      /* Título e logo lado a lado */
+      .degree-with-logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 5px;
+      }
+      .degree-with-logo h3 {
+        margin: 0;
+      }
+      .degree-with-logo img {
+        width: 40px;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+      }
+      .degree-with-logo img:hover {
+        transform: scale(1.2);
+      }
+      
+      .degree-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #555;
+        padding: 8px;
+        margin-bottom: 10px;
+      }
+      .degree-info {
+        font-size: 14px;
+        margin-right: 10px;
+      }
+      .degree-logo img {
+        width: 50px;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+      }
+      .degree-logo img:hover {
+        transform: scale(1.2);
+      }
+      
+      /* Timeline estilo zigzag */
+      .zigzag-timeline {
+        position: relative;
+        width: 90%;
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 0 0 40px 0;
+      }
+      .zigzag-timeline::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 4px;
+        height: 100%;
+        background: #555;
+        z-index: 1;
+      }
+      .timeline-block {
+        position: relative;
+        width: 50%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .timeline-block .marker {
+        width: 20px;
+        height: 20px;
+        background: #31BAE9;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        z-index: 2;
+      }
+      .timeline-block .content {
+        background: #222;
+        color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        position: relative;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      }
+      .timeline-block .content h3 {
+        margin-top: 0;
+        font-size: 1.2rem;
+      }
+      .timeline-block .content h4 {
+        margin-bottom: 10px;
+        font-size: 1rem;
+        color: #31BAE9;
+      }
+      
+      .uni-logo {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+      .uni-logo:hover {
+        transform: scale(1.2);
+      }
+      
+      .timeline-block.left {
+        left: 0;
+        text-align: right;
+      }
+      .timeline-block.left .marker {
+        right: -10px;
+      }
+      .timeline-block.left .content {
+        margin-right: 20px;
+      }
+      
+      .timeline-block.right {
+        left: 50%;
+        text-align: left;
+      }
+      .timeline-block.right .marker {
+        left: -10px;
+      }
+      .timeline-block.right .content {
+        margin-left: 20px;
+      }
+      
+      @media (max-width: 768px) {
+        .zigzag-timeline::before {
+          left: 2%;
+        }
+        .timeline-block {
+          width: 100%;
+          padding-left: 60px;
+        }
+        .timeline-block.left,
+        .timeline-block.right {
+          left: 0;
+          text-align: left;
+        }
+        .timeline-block.left .marker,
+        .timeline-block.right .marker {
+          left: 20px;
+        }
+        .timeline-block.left .content,
+        .timeline-block.right .content {
+          margin: 0 0 20px 40px;
+        }
+      }
+      .zigzag-timeline .content h4 {
+        color: #999;
+      }
+      
+      /* Publicações */
+      .publications {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .publication-item {
+        background-color: #222;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+      }
+      .publication-item h3 {
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+      .publication-item h3 a {
+        color: #58acd8;
+        text-decoration: none;
+      }
+      .publication-item h3 a:hover {
+        text-decoration: underline;
+      }
+      .publication-item .authors,
+      .publication-item .venue,
+      .publication-item .abstract {
+        color: #ccc;
+        margin: 5px 0;
+        font-size: 0.95em;
+      }
+      @media (max-width: 768px) {
+        .publication-item {
+          padding: 10px;
+        }
+      }
+      </style>
+---
+
+
+::: {#right-sidebar}
+
+![](https://raw.githubusercontent.com/rhozon/site/refs/heads/master/Me_Ohio_Univ.jpeg)
+
+<div style="font-size: 12px;">
+
+<strong>Resumé</strong>  
+
+---
+
+_Econometrician and PhD. researcher at Systems and Industrial Engineering at PUCPR,  
+MSc in Economic Development from UFPR, with over 15 years of experience in data analysis, modeling, processing and presentation of information for intelligent decision making._
+
+</div>
+
+<div id="icon-list">
+[<i class="fab fa-linkedin icon-fa" style="font-size:12.5px;"></i>](https://www.linkedin.com/in/rodrigohermontozon/){title="LinkedIn"}
+[<i class="fab fa-github icon-fa" style="font-size:12.5px;"></i>](https://github.com/rhozon){title="GitHub"}
+[<i class="fab fa-whatsapp icon-fa" style="font-size:12.5px;"></i>](https://wa.me/5541988382904){title="WhatsApp"}
+[<i class="fas fa-envelope icon-fa" style="font-size:12.5px;"></i>](mailto:rodrigoozon@yahoo.com.br){title="E-mail"}
+[<i class="fas fa-school icon-fa" style="font-size:12.5px;"></i>](mailto:rodrigo.hermont@pucpr.edu.br){title="PUCPR"}
+[<i class="fas fa-building-columns icon-fa" style="font-size:12.5px;"></i>](mailto:rodrigo.ozon@fae.edu){title="FAE"}
+[<i class="fab fa-google icon-fa" style="font-size:12.5px;"></i>](https://scholar.google.com/citations?user=hPcIR9oAAAAJ&hl=en){title="Google Scholar"}
+[<i class="fab fa-orcid icon-fa" style="font-size:12.5px;"></i>](https://orcid.org/my-orcid?orcid=0000-0001-8003-4849){title="ORCID"}
+[<i class="fas fa-id-card icon-fa" style="font-size:12.5px;"></i>](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=CAE59CF7D29E4B95B7C13C648C78B21F#){title="CV Lattes"}
+</div>
+:::
+
+
+
+# Academics {style="font-size:14pt;"}
+
+::: {.panel-tabset}
+## Background
+
+::: {#highlights .callout-note collapse="false"}
+### Highlights
+
+
+```{=html}
+
+<style>
+.timeline-block .content {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.timeline-block:hover .content {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+.extra-details {
+  display: none;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #ccc;
+}
+.uni-logo-standard {
+  width: 70px;
+  height: auto;
+  max-height: 70px;
+  object-fit: contain;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.uni-logo-standard:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+</style>
+
+<div class="zigzag-timeline">
+  <!-- PhD PUCPR -->
+  <div class="timeline-block left" onclick="toggleDetails(this)">
+    <div class="marker"></div>
+    <div class="content">
+      <h3>2022 to 2027 (expected)</h3>
+      <h4>PhD Candidate – Systems &amp; Industrial Eng.</h4>
+      <p style="font-size: 12px;">Research in applied time series analysis, Financial Econometrics, Bayesian Econometrics, Portfolio Multiobjective Optimization, and Modelling Extremal Events.</p>
+      <div style="text-align: center; margin-top: 10px;">
+        <a href="https://www.pucpr.br/escola-politecnica/mestrado-doutorado/engenharia-de-producao-e-sistemas/" title="PPGEPS – PUCPR">
+          <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/pucpr_logo.jpg" alt="PUCPR Logo" class="uni-logo-standard">
+        </a>
+      </div>
+      <div class="extra-details">
+        <p>Visit our research project at <a href="https://pibicagrofinance.github.io/site/introduction.html">PIBIC AgroFinance Page</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MSc UFPR -->
+  <div class="timeline-block right" onclick="toggleDetails(this)">
+    <div class="marker"></div>
+    <div class="content">
+      <h3>2011</h3>
+      <h4>MSc. in Economic Development</h4>
+      <p style="font-size: 12px;">Course completed at <a href="https://www.ufpr.br">UFPR</a> with an emphasis on big data, multivariate analysis, and econometrics. Thesis available at <a href="https://acervodigital.ufpr.br/xmlui/bitstream/handle/1884/25651/Disserta_v12.pdf?sequence=1&amp;isAllowed=y">acervodigital.ufpr.br</a>.</p>
+      <div style="text-align: center; margin-top: 10px;">
+        <a href="https://sociaisaplicadas.ufpr.br/depecon/pos-graduacao/" title="PPGEDE – UFPR">
+          <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/ufpr_logo.jpg" alt="UFPR Logo" class="uni-logo-standard">
+        </a>
+      </div>
+      <div class="extra-details">
+        <p>See the post on IBQP/Sebrae at <a href="https://ibqp.org.br/idmpe/">this link</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bacharelado UFPR -->
+  <div class="timeline-block left" onclick="toggleDetails(this)">
+    <div class="marker"></div>
+    <div class="content">
+      <h3>2007</h3>
+      <h4>Bachelor Degree in Economics</h4>
+      <p style="font-size: 12px;">Undergraduate studies at UFPR, with a thesis honored and transformed into a research project at the UFPR Laboratory of Statistics and GeoInformation. View it at <a href="http://leg.ufpr.br/doku.php/projetos:ehlers:volprev" title="LEG -- UFPR">leg.ufpr.br</a>.</p>
+      <div style="text-align: center; margin-top: 10px;">
+        <a href="https://economia.ufpr.br/" title="Undergraduate course at UFPR">
+          <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/ufpr_logo.jpg" alt="UFPR Logo" class="uni-logo-standard">
+        </a>
+      </div>
+      <div class="extra-details">
+        <p>Learn more about the undergraduate course at UFPR <a href="https://economia.ufpr.br/">here</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function toggleDetails(block) {
+  var details = block.querySelector('.extra-details');
+  if (details.style.display === 'none' || details.style.display === '') {
+    details.style.display = 'block';
+  } else {
+    details.style.display = 'none';
+  }
+}
+</script>
+```
+
+:::
+  
+::: {#publications .callout-note collapse="true"}
+### Last publications
+
+<div style="font-size: 12px;">
+
+$\Rightarrow$ See the complete [academic CV in Curriculum Lattes (pt br) Platform](http://lattes.cnpq.br/3532649625879285)
+
+**Ozon, R., H. (2024).** *Evaluation Declaration for SEMIC/SEMITI.* In XXXI Scientific Initiation Seminar at PUCPR.  
+   [Link](https://github.com/rhozon/Doutorado/blob/main/DeclaraC3A7C3A3o-Rodrigo20Hermont20Ozon-XXXI20SeminC3A1rio20de20IniciaC3A7C3A3o20CientC3ADfica20da20PUCPR.pdf)
+
+**Ozon, R., H. (2024–2025).** *Scientific Initiation Advisorship (PUCPR).*  
+   [Link](https://pibicagrofinance.github.io/site/)
+
+**Ozon, R., H., Reynoso-Meza, G. (2024).** *Comparative Analysis of Fuzzy Regression Models and Multicriteria Decision-Making for Commodity Market Forecasting Scenarios.* In SBPO.  
+   [Material: paper_6925.pdf]
+
+**Ozon, R., H., Reynoso-Meza, G. (2024).** *Predictive Maintenance Strategies in Agriculture Using Survival Analysis.* In SBA. [Material: galoa-proceedings--sbpo-2024--193764.pdf]
+
+**Ozon, R., H., Reynoso-Meza, G. (2024).** *Efficiency and Efficacy Comparison between NSGA-II and Differential Evolution in Multi-Objective Portfolio Optimization.* In ICPR Americas 2024 (Ohio University). [Material: Optimization__Paper_ID.pdf]
+
+**Ozon, R., H.,  (2024).** *Integrating GAMLSS and Bayesian MSGARCH Models for Enhanced Forecasting of Commodity Price Returns: A Novel Approach in Financial Econometrics.* In 1st SouthStat Meeting (UFPR). [Material: _poster Rodrigo Hermont Ozon.pdf]
+
+**Ozon, R., H. (2023).** *The Use of Time Series Disaggregation with the tempdisagg Package in Econometric Models.* In R Day (UFPR). [Material: _Presentation__Desagragação_de_Séries_Temporais__R_Day_]
+
+**Ozon, R., H., Reynoso-Meza, G. (2023).** *Portfolio Optimization with GARCH Models Using Multiple Time Windows for Pareto Frontiers.* In APREPRO. [Link](https://aprepro.org.br/conbrepro/anais/2023/arquivos/10012023_161031_6519cd0fed1f2.pdf)
+
+**Ozon, R., Viana, R. (2024).** *Impact of Sentiment Analysis on the Volatility and Structural Breaks in Agricultural Commodity Prices.* In [See the publishing plan for this paper in this presentation](https://github.com/pibicagrofinance/site/blob/main/Presentation_MQII___Rodrigo_Hermont_Ozon.pdf)
+
+**Ozon, R. (2024).** *Ablation Study of a CNN+LSTM Architecture for Time Series Forecasting of Corn Price Returns.*
+
+**Ozon, R., Guedes, R. (2024).** *Blending Forecasting Models for Commodities Portfolio Optimization.*
+
+**Ozon, R. (2024).** *Impact of the Russia-Ukraine War on Corn Prices, Returns, and Volatility: A Quasi-Experimental Approach.*
+
+**Ozon, R., Guedes da Silva, R. T. (2024).** *A Commodities Portfolio Optimization Model Recommendation: Blending Time Series Forecasting Models in Pareto Front Scenarios.*
+
+**Ozon, R., de Lima, J. D., Dranka, G. (2024).** *Enhancing Grain Portfolio Risk Management with GAMLSS and MSGARCH.* Avaiable in [https://doity.com.br/anais/24ebfin/area/36699](https://doity.com.br/anais/24ebfin/area/36699)
+
+**Ozon, R., Reynoso-Meza, G. (2024).** *Improving Risk Management in Grain Portfolios: The Role of GAMLSS and Bayesian MSGARCH Models.*
+
+**Ozon, R., Reynoso-Meza, G. (2023).** *Econometric Prices Forecasting Approach and Multiobjective Optimization for Commodity Portfolio Decision-Making.*
+
+
+</div>
+
+:::
+
+::: {#publications .callout-note collapse="true"}
+### Periodic Reviewer
+
+<div style="font-size: 12px;">
+
+- **Reviewer** for *Soft Computing* Journal. In [https://link.springer.com/journal/500](https://link.springer.com/journal/500)
+
+
+</div>
+
+
+:::
+
+
+## Certifications {style="font-size:14pt;"}
+
+<div style="font-size: 12px;">
+
+```{=html}
+
+<style>
+.certification-item {
+  display: flex;
+  align-items: center;
+  background: #222;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+  transition: background 0.3s ease;
+  font-size: 12px;
+}
+.certification-item:hover {
+  background-color: #333;
+}
+.cert-logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  border: 2px solid #444;
+  transition: transform 0.6s ease-in-out;
+}
+.cert-logo:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+.cert-info {
+  color: #ccc;
+}
+.cert-info strong {
+  color: #fff;
+  font-size: 1.1em;
+}
+.cert-info a {
+  color: #58acd8;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+.cert-info a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="certification-item">
+  <a href="https://www.datacamp.com" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/datacamp_logo.jpg" alt="Datacamp">
+  </a>
+  <div class="cert-info">
+    <strong>ETL and ELT in Python</strong><br>
+    <a href="https://www.datacamp.com/statement-of-accomplishment/course/bc6d792058f3ec5bccfc37b05bb09ce9b3d41f11?raw=1" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+<div class="certification-item">
+  <a href="https://www.pucpr.br" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/pucpr_logo.jpg" alt="PUCPR">
+  </a>
+  <div class="cert-info">
+    <strong>Current Issues and Emerging Trends in Industrial & Systems Engineering</strong><br>
+    <a href="https://www.even3.com.br/documentos/imprimir?i=18398961.82722246.586150.8.8398961827222465861508&cc=B4D46098-F578-45B1-A476-FCB6DF5C0232" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+<div class="certification-item">
+  <a href="https://www.dataquest.io" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/dataquest_logo.jpg" alt="DataQuest">
+  </a>
+  <div class="cert-info">
+    <strong>Optimizing Network Parameters</strong><br>
+    <a href="https://app.dataquest.io/view_cert/79AZ4ZGQPM86HITVKJOT" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+<div class="certification-item">
+  <a href="https://www.datacamp.com" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/datacamp_logo.jpg" alt="Datacamp">
+  </a>
+  <div class="cert-info">
+    <strong>Introduction to ChatGPT</strong><br>
+    <a href="https://www.datacamp.com/statement-of-accomplishment/course/bfdb374fbfd1f86b64b7b1fb971f190ec3502260" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+<div class="certification-item">
+  <a href="https://www.dataquest.io" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/dataquest_logo.jpg" alt="DataQuest">
+  </a>
+  <div class="cert-info">
+    <strong>Zero to GPT Path</strong><br>
+    <a href="https://app.dataquest.io/view_cert/8YWYERX5UU3OZEOG9ITP" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+<div class="certification-item">
+  <a href="https://www.datacamp.com" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/datacamp_logo.jpg" alt="Datacamp">
+  </a>
+  <div class="cert-info">
+    <strong>Quantitative Risk Management in R</strong><br>
+    <a href="https://www.datacamp.com/statement-of-accomplishment/course/d538170aa189d99c8650b1ccd482b49f7f54e60c" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+
+<div class="certification-item">
+  <a href="https://www.datacamp.com" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/datacamp_logo.jpg" alt="Datacamp">
+  </a>
+  <div class="cert-info">
+    <strong>Feature Engineering with PySpark</strong><br>
+    <a href="https://www.datacamp.com/statement-of-accomplishment/course/81fe0520e6f294123a6dfa19d972e2d94dc822a6?raw=1" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+<div class="certification-item">
+  <a href="https://www.datacamp.com" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/datacamp_logo.jpg" alt="Datacamp">
+  </a>
+  <div class="cert-info">
+    <strong>Machine Learning with PySpark</strong><br>
+    <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/c5ee5d49dd38f60cdfa925a9e15369eb0961fdd8" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+
+<div class="certification-item">
+  <a href="https://www.datacamp.com" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/datacamp_logo.jpg" alt="Datacamp">
+  </a>
+  <div class="cert-info">
+    <strong>Data-Driven Decision Making for Business</strong><br>
+    <a href="https://www.datacamp.com/statement-of-accomplishment/course/fcbc287cfd7c7971d8a763a8ccec34789db55dc0?raw=1" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+<div class="certification-item">
+  <a href="https://www.datacamp.com" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/datacamp_logo.jpg" alt="Datacamp">
+  </a>
+  <div class="cert-info">
+    <strong>Decoding Decision Modeling</strong><br>
+    <a href="https://www.datacamp.com/statement-of-accomplishment/course/640f09e9b86ba0d624561c5b9758ee51249e4e58?raw=1" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+<div class="certification-item">
+  <a href="https://www.datacamp.com" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/datacamp_logo.jpg" alt="Datacamp">
+  </a>
+  <div class="cert-info">
+    <strong>Software Engineering Principles in Python</strong><br>
+    <a href="https://www.datacamp.com/statement-of-accomplishment/course/bd3a89ecd7b85b282d48b710d375564d074543fa?raw=1" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+<div class="certification-item">
+  <a href="https://www.datacamp.com" target="_blank">
+    <img class="cert-logo" src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/datacamp_logo.jpg" alt="Datacamp">
+  </a>
+  <div class="cert-info">
+    <strong>Introduction to Databricks</strong><br>
+    <a href="https://www.datacamp.com/statement-of-accomplishment/course/bcc581c620da1d2bda5bec9db0aff7dd1f06eed7?raw=1" target="_blank">📜 View certificate</a>
+  </div>
+</div>
+
+```
+
+</div>
+
+
+## Teaching Experience
+
+```{=html}
+
+<style>
+.teaching-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background: #222;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: background 0.3s ease;
+  font-size: 12px;
+}
+.teaching-item:hover {
+  background-color: #333;
+}
+.teaching-dates {
+  flex: 0 0 120px;
+  margin-right: 20px;
+  color: #ccc;
+  font-weight: bold;
+  text-align: left;
+}
+.teaching-main {
+  flex: 1;
+}
+.teaching-main h3 {
+  margin: 0 0 5px;
+  font-size: 1.2em;
+  color: #fff;
+}
+.teaching-main .location {
+  font-weight: bold;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+.teaching-main p {
+  margin: 5px 0;
+  font-size: 0.95em;
+  line-height: 1.4;
+  color: #ccc;
+}
+.teaching-logo {
+  flex: 0 0 50px;
+  text-align: center;
+  margin-left: 10px;
+}
+.teaching-logo img {
+  width: 70px;
+  height: 50px;
+  object-fit: contain;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 4px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.teaching-logo img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+</style>
+
+<div class="teaching-item">
+  <div class="teaching-dates">Jan 2025 – Present</div>
+  <div class="teaching-main">
+    <h3>Undergraduate Professor</h3>
+    <div class="location">FAE Business School – Curitiba, PR</div>
+    <p>Teaching undergraduate courses in Data Science for Business and Financial Markets at FAE University. Responsibilities include:
+      <ul>
+        <li><strong>Big Data for Finance Project</strong> – Applying data science to financial decisions.</li>
+        <li><strong>Computational Programming</strong> – Fundamentals and analytics.</li>
+        <li><strong>Risk Management</strong> – Quantitative methods and tools.</li>
+      </ul>
+    </p>
+  </div>
+  <div class="teaching-logo">
+    <a href="https://www.fae.edu" target="_blank">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/fae_logo.jpg" alt="FAE Logo">
+    </a>
+  </div>
+</div>
+
+<div class="teaching-item">
+  <div class="teaching-dates">Jan – Dec 2011</div>
+  <div class="teaching-main">
+    <h3>Undergraduate Professor</h3>
+    <div class="location">FESP/PR – Curitiba, PR</div>
+    <p>Taught the Project Integration course in the Graduate Program in Project Management, based on PMBOK practices.</p>
+  </div>
+  <div class="teaching-logo">
+    <a href="https://www.fesppr.br" target="_blank">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/fesp_logo.jpg" alt="FESP Logo">
+    </a>
+  </div>
+</div>
+
+<div class="teaching-item">
+  <div class="teaching-dates">Jan 2009 – Dec 2011</div>
+  <div class="teaching-main">
+    <h3>Undergraduate Professor</h3>
+    <div class="location">INESUL – Araucária, PR</div>
+    <p>Taught Financial Mathematics, Financial Management, SPC, Business Informatics, and Industry Performance Indicators. Coordinated Research and Graduate Studies from 07/2009 to 03/2010.</p>
+  </div>
+  <div class="teaching-logo">
+    <a href="https://www.inesul.edu.br" target="_blank">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/inesul_logo.png" alt="INESUL Logo">
+    </a>
+  </div>
+</div>
+
+<div class="teaching-item">
+  <div class="teaching-dates">Jan 2009 – Dec 2010</div>
+  <div class="teaching-main">
+    <h3>Undergraduate Professor</h3>
+    <div class="location">Positivo University – Curitiba, PR</div>
+    <p>Taught Financial Markets, Monetary and Financial Economics, and Quantitative Methods for Business students.</p>
+  </div>
+  <div class="teaching-logo">
+    <a href="https://www.up.edu.br" target="_blank">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/universidadepositivo_logo.jpg" alt="Positivo Logo">
+    </a>
+  </div>
+</div>
+
+<div class="teaching-item">
+  <div class="teaching-dates">Aug 2024</div>
+  <div class="teaching-main">
+    <h3>Postgraduate Professor</h3>
+    <div class="location">ESIC International – Curitiba, PR</div>
+    <p>Taught a 12-hour module on Investments in the Executive MBA. Topics: evaluation criteria, risk, inflation impact, fiscal environment, strategic investments.</p>
+  </div>
+  <div class="teaching-logo">
+    <a href="https://www.esic.br" target="_blank">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/ESIC_logo.jpg" alt="ESIC Logo">
+    </a>
+  </div>
+</div>
+
+```
+
+:::
+
+# Professional Exp. {style="font-size:14pt;"}
+
+::: {.panel-tabset}
+## Professional Last Experiences {style="font-size:14pt;"}
+
+
+```{=html}
+
+<style>
+  .experience-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #222;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: background 0.3s ease;
+    font-size: 12px;
+  }
+  .experience-item:hover {
+    background-color: #333;
+  }
+  .exp-dates {
+    flex: 0 0 120px;
+    margin-right: 20px;
+    color: #ccc;
+    font-weight: bold;
+    text-align: left;
+  }
+  .exp-main {
+    flex: 1;
+  }
+  .exp-main h3 {
+    margin: 0 0 5px;
+    font-size: 1.2em;
+    color: #fff;
+  }
+  .exp-main .location {
+    font-weight: bold;
+    color: #aaa;
+    margin-bottom: 5px;
+  }
+  .exp-main p {
+    margin: 5px 0;
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: #ccc;
+  }
+  .exp-logo {
+    flex: 0 0 80px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .exp-logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .exp-logo img:hover {
+    transform: scale(1.1);
+  }
+</style>
+
+<div class="professional-experiences">
+  <!-- Experience Item 1 -->
+  <div class="experience-item">
+    <div class="exp-dates">Jan 2025 – Apr 2025</div>
+    <div class="exp-main">
+      <h3 title="Creating business value with digital data solutions, including cloud platforms, data pipelines, and advanced analytics.">Data Engineer Professional</h3>
+      <div class="location">Volvo Group Digital &amp; IT – Curitiba, PR</div>
+      <p>I work as a data engineer/scientist, integrating agile teams to create digital solutions focused on delivering business value. My responsibilities include:</p>
+      <ul style="color: #ccc; font-size: 0.95em; line-height: 1.4;">
+        <li>Collaborating with data scientists to implement advanced analytics and AI solutions;</li>
+        <li>Mining and analyzing data to optimize product development, sales, and business strategies;</li>
+        <li>Developing custom algorithms and predictive models;</li>
+        <li>Managing cloud-based data systems (Azure, ADF, ADB);</li>
+        <li>Utilizing SQL, Python, and PySpark to build data pipelines;</li>
+        <li>Implementing MLOps practices and monitoring model performance.</li>
+      </ul>
+    </div>
+    <div class="exp-logo">
+      <a href="https://www.volvogroup.com/en/" title="Volvo Group Digital & IT">
+        <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/volvo_logo.jpg" alt="Volvo Logo">
+      </a>
+    </div>
+  </div>
+  
+  <!-- Experience Item 2 -->
+  <div class="experience-item">
+    <div class="exp-dates">Oct 2024 – Dec 2024</div>
+    <div class="exp-main">
+      <h3>Data Scientist Area Coordinator</h3>
+      <div class="location">LABPR – Curitiba, PR</div>
+      <p>I coordinate operations at LAB.PR, a laboratory focused on public intelligence and data science. LAB.PR's core areas include: data science and artificial intelligence, plain language use and public document redesign, systems integration for high-precision public policies, technology skills development programs, and institutional partnerships. Under my leadership, the lab aims to transform state public management through the application of advanced technologies and data governance methodologies, promoting transparency and efficiency in public administration.</p>
+    </div>
+    <div class="exp-logo">
+      <a href="https://www.lab.pr.gov.br/" title="LABPR">
+        <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/labpr_logo (3).png" alt="LABPR Logo">
+      </a>
+    </div>
+  </div>
+  
+  <!-- Experience Item 3 -->
+  <div class="experience-item">
+    <div class="exp-dates">Apr 2023 – Sep 2024</div>
+    <div class="exp-main">
+      <h3>Data Science Consultant</h3>
+      <div class="location">CNH Industrial – Curitiba, PR (Remote)</div>
+      <p>
+        - Build and train ML and AI models;<br>
+        - Manipulation of complex and heterogeneous data: cleaning and sanitizing, deduplication, and dataset construction;<br>
+        - Programming languages used in AI: Python, Scala, R (desirable);<br>
+        - AI libraries: TensorFlow, Caffe, Keras, Torch, etc.;<br>
+        - Use of knowledge in algorithms, statistics, regression models, decision trees, neural networks, etc.;<br>
+        - Experience with time series, image processing, and other complex data types;<br>
+        - Data Lake (Hadoop ecosystem, Spark, Kafka, etc.);<br>
+        - Microsoft Azure Cloud
+      </p>
+    </div>
+    <div class="exp-logo">
+      <a href="https://www.cnhindustrial.com" title="CNH Industrial">
+        <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/cnh_logo.jpg" alt="CNH Logo">
+      </a>
+    </div>
+  </div>
+  
+  <!-- Experience Item 4 -->
+  <div class="experience-item">
+    <div class="exp-dates">May 2021 – Mar 2023</div>
+    <div class="exp-main">
+      <h3>Senior Data Scientist</h3>
+      <div class="location">BRF – Curitiba, PR</div>
+      <p>I managed Business Intelligence (BI) & Analytics products and support solutions. My key responsibilities included:</p>
+      <ul style="color: #ccc; font-size: 0.95em; line-height: 1.4;">
+        <li>Generating dashboards and reports required by business units and ensuring process sustainability through technology integration;</li>
+        <li>Conducting tests to ensure consistency and accuracy of information;</li>
+        <li>Maintaining and updating BI tools and databases, including data modeling and management of multiple data sources;</li>
+        <li>Providing technical support for existing reports, dashboards, and analytics tools;</li>
+        <li>Creating and maintaining technical documentation for future development needs;</li>
+        <li>Processing approx. 700 economic time series to develop a predictive pricing model for corn (CBOT and B3);</li>
+        <li>Developing a Bayesian multicausal model to forecast drivers affecting price fluctuations, backed by microeconometric literature.</li>
+      </ul>
+    </div>
+    <div class="exp-logo">
+      <a href="https://www.brf-global.com" title="BRF">
+        <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/brf_logo.jpg" alt="BRF Logo">
+      </a>
+    </div>
+  </div>
+
+  <!-- Experience Item 5 -->
+  <div class="experience-item">
+    <div class="exp-dates">May 2021 – Jul 2021</div>
+    <div class="exp-main">
+      <h3>Researcher / Consultant</h3>
+      <div class="location">UNDP Brazil – Curitiba, PR</div>
+      <p>Worked on economic research, data collection and extraction from official public secondary sources via APIs, and developed automation scripts. Designed a workflow and systematization of primary data gathered by project researchers. Created dashboards with socio-economic indicators for the UNDP BRA/18/024 project "Strengthening the guarantee of the right to life and reducing violence against children and adolescents in Brazil."</p>
+      <p>Contributed to the development of a prioritization plan proposal for neighborhoods/regions with the most critical crime and violence indicators, supporting proposed actions and policies directed to the UNDP/UN, in pursuit of future equal opportunity.</p>
+    </div>
+    <div class="exp-logo">
+      <a href="https://www.undp.org/brazil" title="UNDP Brazil">
+        <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/pnud_logo.jpg" alt="UNDP Logo">
+      </a>
+    </div>
+  </div>
+  
+<div class="experience-item">
+  <div class="exp-dates">Jan 2021 – Mar 2021</div>
+  <div class="exp-main">
+    <h3>Sr. BI Analyst (Data Scientist)</h3>
+    <div class="location">Tecnofit – Curitiba, PR</div>
+    <p>I was responsible for implementing data-driven culture and analytics projects across the company. My responsibilities included:</p>
+    <ul>
+      <li>Conducting market research in the fitness sector (local, national, and global) with share, acquisition, and future demand potential analysis.</li>
+      <li>Mapping information and data flows across all company departments.</li>
+      <li>Building analytical dashboards aligned with company OKRs and presenting solutions to senior management.</li>
+    </ul>
+    <p><strong>Main deliveries:</strong></p>
+    <ul>
+      <li>SEO automation scripts using market fitness keywords to detect trends.</li>
+      <li>Automated data extraction from Hubspot CRM API and additional dataframes.</li>
+      <li>Company potential analysis using Google Places API (active/inactive due to COVID-19 regulations).</li>
+      <li>Market share and trends analysis using CAGED and RAIS datasets.</li>
+      <li>Routine data extractions from databases for indicators and raw metrics.</li>
+      <li>Development of a governance documentation model (data dictionary, workflows, and task descriptions).</li>
+      <li>Ad-hoc analysis for marketing and sales teams.</li>
+    </ul>
+  </div>
+  <div class="exp-logo">
+    <a href="https://tecnofit.com.br" title="Tecnofit" target="_blank">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/tecnofit_logo.jpg" alt="Tecnofit Logo">
+    </a>
+  </div>
+</div>
+
+<div class="experience-item">
+  <div class="exp-dates">Oct 2020 – Dec 2020</div>
+  <div class="exp-main">
+    <h3>Sr. Data Scientist</h3>
+    <div class="location">Deal – Curitiba, PR</div>
+    <p>Served as an exclusive consultant on the Market Intelligence and Pricing implementation project for Rumo Logística. My work included validating deliverables from two international consultancies, running price optimization and machine learning model tests, and auditing data pipelines and warehouse structures.</p>
+    <p>Main contributions:</p>
+    <ul>
+      <li>Generated analytical and strategic documentation on Confluence;</li>
+      <li>Mapped data flows including collection processes, interpretation logic, and integration with external data APIs;</li>
+      <li>Performed PostgreSQL data quality audits, highlighting gaps impacting model reliability;</li>
+      <li>Proposed and documented automation pipelines with ETL scripts pushing .csv files to AWS S3 via APIs;</li>
+      <li>Created a real-time delivery tracking system using BitBucket linked to customer demand;</li>
+      <li>Produced reproducible, dynamic RMarkdown documents for all delivered solutions and data workflows.</li>
+    </ul>
+  </div>
+  <div class="exp-logo">
+    <a href="https://www.deal.com.br" title="Deal">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/deal_logo.jpg" alt="Deal Logo">
+    </a>
+  </div>
+</div>
+
+
+<div class="experience-item">
+  <div class="exp-dates">Nov 2019 – Oct 2020</div>
+  <div class="exp-main">
+    <h3>Freelance Data Scientist</h3>
+    <div class="location">Upwork.com – Remote</div>
+    <p>I worked remotely as a freelancer on specific on-demand projects, focusing on data science, econometrics, and scientific document editing using LaTeX with R.</p>
+  </div>
+  <div class="exp-logo">
+    <a href="https://www.upwork.com" title="Upwork">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/upwork_logo.jpg" alt="Upwork Logo">
+    </a>
+  </div>
+</div>
+
+<div class="experience-item">
+  <div class="exp-dates">Feb 2020 – Mar 2020</div>
+  <div class="exp-main">
+    <h3>Market Intelligence Analyst</h3>
+    <div class="location">ALCAST DO BRASIL S/A – Curitiba Area, Brazil</div>
+    <p>Responsible for market mapping, segmentation, and business risk/opportunity assessment. My work contributed to the early implementation of data-driven competitive intelligence within the company.</p>
+    <p>Main contributions:</p>
+    <ul>
+      <li>Collaborated across marketing, market, and commercial departments to establish a market intelligence strategy;</li>
+      <li>Proposed transitioning from spreadsheet models to real-time dashboards using RMarkdown and Microsoft Power BI;</li>
+      <li>Monitored and supported consulting initiatives led by Fundação Dom Cabral for strategic implementation of market intelligence.</li>
+    </ul>
+  </div>
+  <div class="exp-logo">
+    <a href="https://www.alcast.com.br" title="ALCAST DO BRASIL S/A">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/alcast_logo.jpg" alt="Alcast Logo">
+    </a>
+  </div>
+</div>
+
+<div class="experience-item">
+  <div class="exp-dates">Oct 2019 – Nov 2019</div>
+  <div class="exp-main">
+    <h3>Business Intelligence Consultant</h3>
+    <div class="location">Kie-Teckie-Tec – Curitiba Area, Brazil</div>
+    <p>Worked on requirements gathering, predictive modeling proposals, and advanced data analysis. Delivered solutions aimed at improving decision-making through structured data insights and analytical modeling.</p>
+  </div>
+  <div class="exp-logo">
+    <a href="#" title="Kie-Teckie-Tec">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/kietec_logo.jpg" alt="Kie-Teckie-Tec Logo">
+    </a>
+  </div>
+</div>
+
+<div class="experience-item">
+  <div class="exp-dates">May 2019 – Oct 2019</div>
+  <div class="exp-main">
+    <h3>Sr. Statistics Analyst</h3>
+    <div class="location">Grupo Bitcoin Banco – Curitiba Area, Brazil</div>
+    <p>Led the systematization of quantifiable and statistically measurable information to support econometric modeling across all departments of the bank.</p>
+    <p>Main contributions:</p>
+    <ul>
+      <li>Engaged with every department to gather requirements for integrated KPIs and modeling frameworks;</li>
+      <li>Established routines for database updates aligned with Brazil’s General Data Protection Law (LGPD);</li>
+      <li>Implemented real-time business intelligence systems for data visualization and big data analytics;</li>
+      <li>Supported executive decision-making with robust statistical reports and insights.</li>
+    </ul>
+  </div>
+  <div class="exp-logo">
+    <a href="#" title="Grupo Bitcoin Banco">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/gbb_logo.jpg" alt="Grupo Bitcoin Banco Logo">
+    </a>
+  </div>
+</div>
+
+<div class="experience-item">
+  <div class="exp-dates">Oct 2012 – Nov 2018</div>
+  <div class="exp-main">
+    <h3>Mid-Level Economic Analyst</h3>
+    <div class="location">FIEP – Curitiba, Paraná</div>
+    <p>Provided economic analysis and strategic consulting for major business unions in Paraná, guiding collective bargaining negotiations and industrial policy recommendations.</p>
+    <p>Main contributions:</p>
+    <ul>
+      <li>Advised union partners on productive chain analytics and economic indicators;</li>
+      <li>Developed economic data visualizations using Power BI to improve data workflows;</li>
+      <li>Created and maintained an economic blog using Tableau Public for regional insights: <a href="http://fiepdesenvolvimento.blogspot.com">fiepdesenvolvimento.blogspot.com</a>;</li>
+      <li>Reviewed and evaluated innovation project proposals under SENAI/SESI public notices;</li>
+      <li>Secured R$ 300,000 in sponsorships for the Moveleiro Congress.</li>
+    </ul>
+  </div>
+  <div class="exp-logo">
+    <a href="https://www.portaldaindustria.com.br/sesi/institucional/sesi-nos-estados/parana" title="FIEP">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/fiep_logo.jpg" alt="FIEP Logo">
+    </a>
+  </div>
+</div>
+
+<div class="experience-item">
+  <div class="exp-dates">Feb 2008 – Oct 2018</div>
+  <div class="exp-main">
+    <h3>Judicial Labor Expert</h3>
+    <div class="location">Unidade Judiciária Avançada – Porto União da Vitória, PR</div>
+    <p>Appointed by labor courts as a judicial expert, responsible for preparing calculation reports and performing technical economic evaluations for the settlement of labor lawsuits.</p>
+  </div>
+  <div class="exp-logo">
+    <a href="#" title="Unidade Judiciária Avançada">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/ujasc_logo.jpg" alt="Judiciary Logo">
+    </a>
+  </div>
+</div>
+
+
+<div class="experience-item">
+  <div class="exp-dates">Oct 2008 – Oct 2013</div>
+  <div class="exp-main">
+    <h3>Economist / Project Coordinator</h3>
+    <div class="location">IBQP – Curitiba Area, Brazil</div>
+    <p>Served as a researcher in studies on productive chains, innovation initiatives, and economic consulting at the Brazilian Institute for Quality and Productivity (IBQP).</p>
+    <p>Main contributions:</p>
+    <ul>
+      <li>Coordinated innovation-related projects for various business institutions and supported technical proposal development;</li>
+      <li>Led resource acquisition strategies and project monitoring in the field of technological innovation;</li>
+      <li>Acted as a columnist for the business section of <em>O Dia</em> newspaper (Rio de Janeiro), under the column "Sucesso nos Negócios";</li>
+      <li>Coordinated the <strong>Municipal Development Index of Micro and Small Enterprises</strong> project for SEBRAE in partnership with researchers from the Graduate Program in Economic Development at UFPR;</li>
+      <li>The project aimed to provide diagnostics and monitoring of the institutional and economic development environment of municipalities, using a synthetic indicator to support local development based on micro and small enterprises, aligned with Brazil’s General Law for MSEs.</li>
+    </ul>
+  </div>
+  <div class="exp-logo">
+    <a href="https://www.ibqp.org.br" title="IBQP">
+      <img src="https://raw.githubusercontent.com/rhozon/site/refs/heads/master/ibqp_logo.jpg" alt="IBQP Logo">
+    </a>
+  </div>
+</div>
+  
+</div>
+
+```
+
+## Prog. Languages 
+
+<div style="font-size: 12px;">
+
+Knowledge Levels and Expertise in Programming Languages
+
+</div>
+
+```{r}
+#| echo: false
+
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, comment = NA)
+
+```
+
+
+```{r}
+#| echo: false
+
+library(plotly)
+
+# Dados
+df <- data.frame(
+  language = factor(
+    c("Python", "R", "SQL", "Quarto", "HTML5/CSS", "DAX", "VBA"),
+    levels = c("Python", "R", "SQL", "Quarto", "HTML5/CSS", "DAX", "VBA")
+  ),
+  since = c(2021, 2008, 2020, 2022, 2022, 2016, 2003),
+  knowledge = c(7, 8, 7, 8, 6, 5, 6)
+)
+df$knowledge <- df$knowledge * 10
+
+# Logos
+logos <- list(
+  "Python"    = "https://raw.githubusercontent.com/github/explore/main/topics/python/python.png",
+  "R"         = "https://raw.githubusercontent.com/github/explore/main/topics/r/r.png",
+  "SQL"       = "https://raw.githubusercontent.com/github/explore/main/topics/sql/sql.png",
+  "Quarto"    = "https://raw.githubusercontent.com/github/explore/main/topics/quarto/quarto.png",
+  "LaTeX"     = "https://raw.githubusercontent.com/github/explore/main/topics/latex/latex.png",
+  "VBA"       = "https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/Icons/Product/excel.png",
+  "DAX"       = "https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/Icons/Product/dax%20(DB).svg",
+  "HTML5/CSS" = "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+)
+
+# Cores baseadas em escala de roxo
+base_colors <- RColorBrewer::brewer.pal(n = 7, name = "Purples")
+bar_colors <- rev(colorRampPalette(base_colors)(7))
+
+fig <- plot_ly()
+
+for (i in seq_len(nrow(df))) {
+  fig <- fig |> add_trace(
+    type = "bar",
+    orientation = "h",
+    x = df$knowledge[i],
+    y = df$language[i],
+    name = df$language[i],
+    marker = list(color = bar_colors[i]),
+    text = paste0(df$knowledge[i], "%"),
+    textposition = "inside",
+    insidetextfont = list(color = "white", size = 14),
+    hoverinfo = "text",
+    hovertext = paste0("Knowledge considered => ", df$language[i], ": ", df$knowledge[i], "%\nUsing since ", df$since[i])
+  )
+}
+
+fig <- fig |> layout(
+  barmode = "stack",
+  title = list(text = "", x = 0.5),
+  xaxis = list(
+    range = c(0, 100),
+    showgrid = FALSE,
+    zeroline = FALSE,
+    title = NULL
+  ),
+  yaxis = list(
+    autorange = "reversed",
+    title = NULL
+  ),
+  plot_bgcolor = "#333333",
+  paper_bgcolor = "#333333",
+  font = list(color = "white"),
+  showlegend = FALSE,
+  margin = list(l = 180, r = 50, t = 60, b = 60)
+) |> config(displayModeBar = FALSE)
+
+fig
+
+```
+
+:::
+
+
+
+
+
+
