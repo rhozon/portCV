@@ -365,45 +365,30 @@ header-includes:
       </style>
 ---
 
-
-::: {#right-sidebar}
-
+::::: {#right-sidebar}
 ![](https://raw.githubusercontent.com/rhozon/site/refs/heads/master/Me_Ohio_Univ.jpeg)
 
-<div style="font-size: 12px;">
+::: {style="font-size: 12px;"}
+<strong>Resumé</strong>
 
-<strong>Resumé</strong>  
+------------------------------------------------------------------------
 
----
-
-_Econometrician and PhD. researcher at Systems and Industrial Engineering at PUCPR,  
-MSc in Economic Development from UFPR, with over 15 years of experience in data analysis, modeling, processing and presentation of information for intelligent decision making._
-
-</div>
-
-<div id="icon-list">
-[<i class="fab fa-linkedin icon-fa" style="font-size:12.5px;"></i>](https://www.linkedin.com/in/rodrigohermontozon/){title="LinkedIn"}
-[<i class="fab fa-github icon-fa" style="font-size:12.5px;"></i>](https://github.com/rhozon){title="GitHub"}
-[<i class="fab fa-whatsapp icon-fa" style="font-size:12.5px;"></i>](https://wa.me/5541988382904){title="WhatsApp"}
-[<i class="fas fa-envelope icon-fa" style="font-size:12.5px;"></i>](mailto:rodrigoozon@yahoo.com.br){title="E-mail"}
-[<i class="fas fa-school icon-fa" style="font-size:12.5px;"></i>](mailto:rodrigo.hermont@pucpr.edu.br){title="PUCPR"}
-[<i class="fas fa-building-columns icon-fa" style="font-size:12.5px;"></i>](mailto:rodrigo.ozon@fae.edu){title="FAE"}
-[<i class="fab fa-google icon-fa" style="font-size:12.5px;"></i>](https://scholar.google.com/citations?user=hPcIR9oAAAAJ&hl=en){title="Google Scholar"}
-[<i class="fab fa-orcid icon-fa" style="font-size:12.5px;"></i>](https://orcid.org/my-orcid?orcid=0000-0001-8003-4849){title="ORCID"}
-[<i class="fas fa-id-card icon-fa" style="font-size:12.5px;"></i>](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=CAE59CF7D29E4B95B7C13C648C78B21F#){title="CV Lattes"}
-</div>
+*Econometrician and PhD. researcher at Systems and Industrial Engineering at PUCPR,\
+MSc in Economic Development from UFPR, with over 15 years of experience in data analysis, modeling, processing and presentation of information for intelligent decision making.*
 :::
 
-
+::: {#icon-list}
+[<i class="fab fa-linkedin icon-fa" style="font-size:12.5px;"></i>](https://www.linkedin.com/in/rodrigohermontozon/){title="LinkedIn"} [<i class="fab fa-github icon-fa" style="font-size:12.5px;"></i>](https://github.com/rhozon){title="GitHub"} [<i class="fab fa-whatsapp icon-fa" style="font-size:12.5px;"></i>](https://wa.me/5541988382904){title="WhatsApp"} [<i class="fas fa-envelope icon-fa" style="font-size:12.5px;"></i>](mailto:rodrigoozon@yahoo.com.br){title="E-mail"} [<i class="fas fa-school icon-fa" style="font-size:12.5px;"></i>](mailto:rodrigo.hermont@pucpr.edu.br){title="PUCPR"} [<i class="fas fa-building-columns icon-fa" style="font-size:12.5px;"></i>](mailto:rodrigo.ozon@fae.edu){title="FAE"} [<i class="fab fa-google icon-fa" style="font-size:12.5px;"></i>](https://scholar.google.com/citations?user=hPcIR9oAAAAJ&hl=en){title="Google Scholar"} [<i class="fab fa-orcid icon-fa" style="font-size:12.5px;"></i>](https://orcid.org/my-orcid?orcid=0000-0001-8003-4849){title="ORCID"} [<i class="fas fa-id-card icon-fa" style="font-size:12.5px;"></i>](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=CAE59CF7D29E4B95B7C13C648C78B21F#){title="CV Lattes"}
+:::
+:::::
 
 # Academics {style="font-size:14pt;"}
 
-::: {.panel-tabset}
+::::::::: panel-tabset
 ## Background
 
 ::: {#highlights .callout-note collapse="false"}
 ### Highlights
-
 
 ```{=html}
 
@@ -508,32 +493,30 @@ function toggleDetails(block) {
 }
 </script>
 ```
-
 :::
-  
-::: {#publications .callout-note collapse="true"}
+
+:::: {#publications .callout-note collapse="true"}
 ### Last publications
 
-<div style="font-size: 12px;">
-
+::: {style="font-size: 12px;"}
 $\Rightarrow$ See the complete [academic CV in Curriculum Lattes (pt br) Platform](http://lattes.cnpq.br/3532649625879285)
 
-**Ozon, R., H. (2024).** *Evaluation Declaration for SEMIC/SEMITI.* In XXXI Scientific Initiation Seminar at PUCPR.  
-   [Link](https://github.com/rhozon/Doutorado/blob/main/DeclaraC3A7C3A3o-Rodrigo20Hermont20Ozon-XXXI20SeminC3A1rio20de20IniciaC3A7C3A3o20CientC3ADfica20da20PUCPR.pdf)
+**Ozon, R., H. (2024).** *Evaluation Declaration for SEMIC/SEMITI.* In XXXI Scientific Initiation Seminar at PUCPR.\
+[Link](https://github.com/rhozon/Doutorado/blob/main/DeclaraC3A7C3A3o-Rodrigo20Hermont20Ozon-XXXI20SeminC3A1rio20de20IniciaC3A7C3A3o20CientC3ADfica20da20PUCPR.pdf)
 
-**Ozon, R., H. (2024–2025).** *Scientific Initiation Advisorship (PUCPR).*  
-   [Link](https://pibicagrofinance.github.io/site/)
+**Ozon, R., H. (2024–2025).** *Scientific Initiation Advisorship (PUCPR).*\
+[Link](https://pibicagrofinance.github.io/site/)
 
-**Ozon, R., H., Reynoso-Meza, G. (2024).** *Comparative Analysis of Fuzzy Regression Models and Multicriteria Decision-Making for Commodity Market Forecasting Scenarios.* In SBPO.  
-   [Material: paper_6925.pdf]
+**Ozon, R., H., Reynoso-Meza, G. (2024).** *Comparative Analysis of Fuzzy Regression Models and Multicriteria Decision-Making for Commodity Market Forecasting Scenarios.* In SBPO.\
+\[Material: paper_6925.pdf\]
 
-**Ozon, R., H., Reynoso-Meza, G. (2024).** *Predictive Maintenance Strategies in Agriculture Using Survival Analysis.* In SBA. [Material: galoa-proceedings--sbpo-2024--193764.pdf]
+**Ozon, R., H., Reynoso-Meza, G. (2024).** *Predictive Maintenance Strategies in Agriculture Using Survival Analysis.* In SBA. \[Material: galoa-proceedings--sbpo-2024--193764.pdf\]
 
-**Ozon, R., H., Reynoso-Meza, G. (2024).** *Efficiency and Efficacy Comparison between NSGA-II and Differential Evolution in Multi-Objective Portfolio Optimization.* In ICPR Americas 2024 (Ohio University). [Material: Optimization__Paper_ID.pdf]
+**Ozon, R., H., Reynoso-Meza, G. (2024).** *Efficiency and Efficacy Comparison between NSGA-II and Differential Evolution in Multi-Objective Portfolio Optimization.* In ICPR Americas 2024 (Ohio University). \[Material: Optimization\_\_Paper_ID.pdf\]
 
-**Ozon, R., H.,  (2024).** *Integrating GAMLSS and Bayesian MSGARCH Models for Enhanced Forecasting of Commodity Price Returns: A Novel Approach in Financial Econometrics.* In 1st SouthStat Meeting (UFPR). [Material: _poster Rodrigo Hermont Ozon.pdf]
+**Ozon, R., H., (2024).** *Integrating GAMLSS and Bayesian MSGARCH Models for Enhanced Forecasting of Commodity Price Returns: A Novel Approach in Financial Econometrics.* In 1st SouthStat Meeting (UFPR). \[Material: \_poster Rodrigo Hermont Ozon.pdf\]
 
-**Ozon, R., H. (2023).** *The Use of Time Series Disaggregation with the tempdisagg Package in Econometric Models.* In R Day (UFPR). [Material: _Presentation__Desagragação_de_Séries_Temporais__R_Day_]
+**Ozon, R., H. (2023).** *The Use of Time Series Disaggregation with the tempdisagg Package in Econometric Models.* In R Day (UFPR). \[Material: \_Presentation\_\_Desagragação_de_Séries_Temporais\_*R_Day*\]
 
 **Ozon, R., H., Reynoso-Meza, G. (2023).** *Portfolio Optimization with GARCH Models Using Multiple Time Windows for Pareto Frontiers.* In APREPRO. [Link](https://aprepro.org.br/conbrepro/anais/2023/arquivos/10012023_161031_6519cd0fed1f2.pdf)
 
@@ -547,35 +530,25 @@ $\Rightarrow$ See the complete [academic CV in Curriculum Lattes (pt br) Platfor
 
 **Ozon, R., Guedes da Silva, R. T. (2024).** *A Commodities Portfolio Optimization Model Recommendation: Blending Time Series Forecasting Models in Pareto Front Scenarios.*
 
-**Ozon, R., de Lima, J. D., Dranka, G. (2024).** *Enhancing Grain Portfolio Risk Management with GAMLSS and MSGARCH.* Avaiable in [https://doity.com.br/anais/24ebfin/area/36699](https://doity.com.br/anais/24ebfin/area/36699)
+**Ozon, R., de Lima, J. D., Dranka, G. (2024).** *Enhancing Grain Portfolio Risk Management with GAMLSS and MSGARCH.* Avaiable in <https://doity.com.br/anais/24ebfin/area/36699>
 
 **Ozon, R., Reynoso-Meza, G. (2024).** *Improving Risk Management in Grain Portfolios: The Role of GAMLSS and Bayesian MSGARCH Models.*
 
 **Ozon, R., Reynoso-Meza, G. (2023).** *Econometric Prices Forecasting Approach and Multiobjective Optimization for Commodity Portfolio Decision-Making.*
-
-
-</div>
-
 :::
+::::
 
-::: {#publications .callout-note collapse="true"}
+:::: {#publications .callout-note collapse="true"}
 ### Periodic Reviewer
 
-<div style="font-size: 12px;">
-
-- **Reviewer** for *Soft Computing* Journal. In [https://link.springer.com/journal/500](https://link.springer.com/journal/500)
-
-
-</div>
-
-
+::: {style="font-size: 12px;"}
+-   **Reviewer** for *Soft Computing* Journal. In <https://link.springer.com/journal/500>
 :::
-
+::::
 
 ## Certifications {style="font-size:14pt;"}
 
-<div style="font-size: 12px;">
-
+::: {style="font-size: 12px;"}
 ```{=html}
 
 <style>
@@ -742,11 +715,8 @@ $\Rightarrow$ See the complete [academic CV in Curriculum Lattes (pt br) Platfor
     <a href="https://www.datacamp.com/statement-of-accomplishment/course/bcc581c620da1d2bda5bec9db0aff7dd1f06eed7?raw=1" target="_blank">📜 View certificate</a>
   </div>
 </div>
-
 ```
-
-</div>
-
+:::
 
 ## Teaching Experience
 
@@ -890,16 +860,13 @@ $\Rightarrow$ See the complete [academic CV in Curriculum Lattes (pt br) Platfor
     </a>
   </div>
 </div>
-
 ```
-
-:::
+:::::::::
 
 # Professional Exp. {style="font-size:14pt;"}
 
-::: {.panel-tabset}
+:::: panel-tabset
 ## Professional Last Experiences {style="font-size:14pt;"}
-
 
 ```{=html}
 
@@ -1246,16 +1213,13 @@ $\Rightarrow$ See the complete [academic CV in Curriculum Lattes (pt br) Platfor
 </div>
   
 </div>
-
 ```
 
-## Prog. Languages 
+## Prog. Languages
 
-<div style="font-size: 12px;">
-
+::: {style="font-size: 12px;"}
 Knowledge Levels and Expertise in Programming Languages
-
-</div>
+:::
 
 ```{r}
 #| echo: false
@@ -1263,7 +1227,6 @@ Knowledge Levels and Expertise in Programming Languages
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, comment = NA)
 
 ```
-
 
 ```{r}
 #| echo: false
@@ -1338,11 +1301,4 @@ fig <- fig |> layout(
 fig
 
 ```
-
-:::
-
-
-
-
-
-
+::::

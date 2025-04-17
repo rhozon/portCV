@@ -6,7 +6,7 @@ website:
 #  title: ""
   navbar:
     left:
-      - href: CV_testA.qmd
+      - href: cv.qmd
 
 format:
   html:
