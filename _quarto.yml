@@ -3,11 +3,10 @@ project:
   output-dir: "."
 
 website:
-  title: "RHOzon CV"
+#  title: ""
   navbar:
     left:
       - href: CV_testA.qmd
-        text: CV
 
 format:
   html:

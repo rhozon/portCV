@@ -1,5 +1,5 @@
 ---
-title: "<span style='font-size:18pt;'>Rodrigo Hermont Ozon -- Curriculum Vitae</span>"
+title: "<span style='font-size:18pt;'>Welcome to my CV Page</span>"
 subtitle: "<span style='font-size:15pt;'>Economist (econometrics) and Data Scientist</span>"
 date: last-modified
 language:
